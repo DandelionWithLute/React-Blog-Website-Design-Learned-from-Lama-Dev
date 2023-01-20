@@ -1,28 +1,32 @@
-import React from 'react'
+import "./sidebar.css"
 
 export default function Sidebar() {
   return (
-    <div className='sidebar'>
-      <div className="sibarItem">
-        <span className="sidebarTitle">ABOUT ME</span>
-        <img />
+    <div className="sidebar">
+      <span className="sidebarTitle">ABOUT ME</span>
+      <div className="sidebarItem">
+        
+        <img 
+        src ='https://cdn.pixabay.com/photo/2023/01/01/23/37/woman-7691013__340.jpg'
+        alt =''
+        />
         <p>
           My own information.
         </p>
       </div>
-      <div className="sidebarItem">
       <span className="sidebarTitle">CATEGORIES</span>
+      <div className="sidebarItem">
       <ul className="sidebarList">
-        <li className="sidebarList">Life</li>
-        <li className="sidebarList">Music</li>
-        <li className="sidebarList">Style</li>
-        <li className="sidebarList">Sport</li>
-        <li className="sidebarList">Tech</li>
-        <li className="sidebarList">Cinema</li>
+        <li className="sidebarListItem">Life</li>
+        <li className="sidebarListItem">Music</li>
+        <li className="sidebarListItem">Style</li>
+        <li className="sidebarListItem">Sport</li>
+        <li className="sidebarListItem">Tech</li>
+        <li className="sidebarListItem">Cinema</li>
       </ul>
       </div>
+      <span className="sidebarTitle">FOLLOW US</span>
       <div className="sidebarItem">
-        <span className="sidebarTitle">FOLLOW US</span>
         <div className="sidebarSocial">
           <i className="sidebarIcon fab fa-facebook-square"></i>
           <i className="sidebarIcon fab fa-twitter-square"></i>
