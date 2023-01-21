@@ -2,7 +2,7 @@ import Sidebar from "../../components/sidebar/Sidebar"
 import SinglePost from "../../components/singlePost/singlePost"
 import "./single.css"
 
-export default function Single() {
+export default function Singles() {
   return (
     <div className="single">
       <SinglePost />
